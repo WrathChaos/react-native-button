@@ -91,4 +91,4 @@ FreakyCoder, kurayogun@gmail.com
 
 ## License
 
-React Native Dynamic Search Bar Library is available under the MIT license. See the LICENSE file for more info.
+React Native Button Library is available under the MIT license. See the LICENSE file for more info.
