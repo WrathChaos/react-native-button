@@ -65,33 +65,19 @@ npm i @freakycoder/react-native-button
 
 ### Configuration - Props
 
-| Property            |   Type    |      Default      | Description                                                                                           |
-| ------------------- | :-------: | :---------------: | ----------------------------------------------------------------------------------------------------- |
-| onPress             | function  |     function      | set your own function for the onPress functionality                                                   |
-| fontSize            |  number   |        13         | change the font size                                                                                  |
-| fontColor           |   color   |      #b3b6c3      | change the font color                                                                                 |
-| iconName            |  string   |      search       | change the icon                                                                                       |
-| iconType            |  string   |     Octicons      | change the icon style                                                                                 |
-| iconSize            |  number   |        20         | change the icon size                                                                                  |
-| iconColor           |   color   |      #807DE7      | change the icon color                                                                                 |
-| iconComponent       | component |       Icon        | set your own component instead of Icon                                                                |
-| shadowColor         |   color   |      #757575      | change the shadow color                                                                               |
-| shadowStyle         |   style   |   shadow style    | set your own shadow style                                                                             |
-| placeholder         |  string   |       null        | set your own placeholder string                                                                       |
-| textInputDisable    |  boolean  |       false       | disable the text input, and Text component will be available instead                                  |
-| textInputComponent  | component | Text OR TextInput | set your own component instead of Text OR TextInput for the center component                          |
-| textInputValue      |  string   |       value       | set the value of the text input                                                                       |
-| onChangeText        | function  |     function      | set your own function for the onChangeText logic                                                      |
-| cancelIconName      |  string   |       clear       | change the cancel icon                                                                                |
-| cancelIconType      |  string   |   MaterialIcons   | change the cancel icon style                                                                          |
-| cancelIconSize      |  number   |        23         | change the cancel icon size                                                                           |
-| cancelIconColor     |   color   |      #b3b6c3      | change the cancel icon color                                                                          |
-| cancelIconComponent | component |       Icon        | set your own component instead of Icon for the cancel component (right component)                     |
-| onPressCancel       | function  |     function      | set your own function for the cancel button's onPress functionality                                   |
-| cancelComponent     | component |     component     | set your own component instead of cancel component                                                    |
-| cancelButtonDisable |  boolean  |       false       | disable cancel button component                                                                       |
-| autoFocus           |  boolean  |       true        | change the autoFocus mode for the TextInput                                                           |
-| onPressToFocus      |  boolean  |       false       | when enable it, onPress will automatically focus on the TextInput and opens the soft virtual keyboard |
+| Property        |  Type   | Default | Description                                             |
+| --------------- | :-----: | :-----: | ------------------------------------------------------- |
+| outline         | boolean |  true   | make the button outline                                 |
+| solid           | boolean |  false  | make the button with a solid background and a shadow    |
+| gradient        | boolean |  false  | make the button with a gradient background and a shadow |
+| style           |  style  |  style  | set your own style                                      |
+| text            | string  |  null   | set the button's text                                   |
+| textColor       |  color  | #757575 | change the button's text color                          |
+| textStyle       |  style  |  style  | set your own style for the button's style               |
+| borderWidth     | number  |   0.3   | change the outline's border width                       |
+| borderColor     |  color  | #757575 | change the outline's border color                       |
+| shadowColor     |  color  | #757575 | change the solid and gradient's shadow color            |
+| backgroundColor |  color  | #757575 | change the solid's background color                     |
 
 ### ToDos
 
