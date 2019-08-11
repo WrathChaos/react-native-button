@@ -1,14 +1,10 @@
 {
-  "name": "react-native-dynamic-search-bar",
-  "version": "0.2.0",
-  "description": "Fully customizable and dynamic Search Bar for React Native.",
+  "name": "@freakycoder/react-native-button",
+  "version": "0.0.1",
+  "description": "Fully customizable, Gradient, Outline and Solid Button for React Native.",
   "keywords": [
     "gradient",
-    "card",
-    "search",
-    "search-bar",
-    "dynamic",
-    "dynamic-search-bar",
+    "button",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -20,15 +16,17 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-dynamic-search-bar/issues",
-  "main": "./lib/src/SearchBar.js",
-  "repository": "git@github.com:WrathChaos/react-native-dynamic-search-bar.git",
+  "bugs": "https://github.com/WrathChaos/react-native-button/issues",
+  "main": "./lib/src/Button.js",
+  "repository": "git@github.com:WrathChaos/react-native-button.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x.x",
     "react-native": ">= 0.55.x",
+    "react-native-androw": "0.0.31",
     "react-native-vector-icons": ">= 6.x.x",
+    "react-native-linear-gradient": ">= 2.5.x",
     "react-native-dynamic-vector-icons": ">= x.x.x"
   }
 }
