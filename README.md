@@ -2,8 +2,8 @@
 
 Fully customizable, Gradient, Outline and Solid Button for React Native.
 
-[![npm version](https://img.shields.io/npm/v/react-native-button.svg)](https://www.npmjs.com/package/react-native-button)
-[![npm](https://img.shields.io/npm/dt/react-native-button.svg)](https://www.npmjs.com/package/react-native-button)
+[![npm version](https://img.shields.io/npm/v/@freakycoder/react-native-button.svg)](https://www.npmjs.com/package/react-native-button)
+[![npm](https://img.shields.io/npm/dt/@freakycoder/react-native-button.svg)](https://www.npmjs.com/package/react-native-button)
 ![expo-compatible](https://img.shields.io/badge/Expo-compatible-9cf.svg)
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
