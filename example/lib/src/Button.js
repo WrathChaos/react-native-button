@@ -33,6 +33,7 @@ const Button = props => {
         end={{ x: 1, y: 0 }}
         colors={["#FFAFBD", "#ffc3a0"]}
         style={[styles.container, styles.center]}
+        {...props}
       >
         {renderContent()}
       </LinearGradient>
