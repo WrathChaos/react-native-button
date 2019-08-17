@@ -55,12 +55,7 @@ npm i @freakycoder/react-native-button
 ## Outline Button Usage
 
 ```js
-<Button
-  outline
-  color="#ff738b"
-  textColor="#ff738b"
-  borderColor="#ff738b"
-/>
+<Button outline color="#ff738b" textColor="#ff738b" borderColor="#ff738b" />
 ```
 
 ### Configuration - Props
@@ -70,7 +65,9 @@ npm i @freakycoder/react-native-button
 | outline         | boolean |  true   | make the button outline                                 |
 | solid           | boolean |  false  | make the button with a solid background and a shadow    |
 | gradient        | boolean |  false  | make the button with a gradient background and a shadow |
-| style           |  style  |  style  | set your own style                                      |
+| width           | number  |   150   | change the button's width                               |
+| height          | number  |   50    | change the button's height                              |
+| borderRadius    | number  |   32    | change the button's border radius                       |
 | text            | string  |  null   | set the button's text                                   |
 | textColor       |  color  | #757575 | change the button's text color                          |
 | textStyle       |  style  |  style  | set your own style for the button's style               |
@@ -82,11 +79,10 @@ npm i @freakycoder/react-native-button
 
 ### Icon Props
 
-| name     | string |  star  | change the icon name from React Native Vector Icons                      |
-| type     | string |  FontAwesome  | change the icon type from React Native Vector Icons                      |
-| color     | color |  white  | change the icon color                    |
-| size     | number |  15  | change the icon size                      |
-
+| name | string | star | change the icon name from React Native Vector Icons |
+| type | string | FontAwesome | change the icon type from React Native Vector Icons |
+| color | color | white | change the icon color |
+| size | number | 15 | change the icon size |
 
 ### ToDos
 
