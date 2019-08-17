@@ -1,6 +1,9 @@
-[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
+
 
 <img alt="React Native Button" src="https://github.com/WrathChaos/react-native-button/blob/master/assets/logo.png" width="1050"/>
+
+
+[![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
 
 [![Fully customizable, Gradient, Outline and Solid Button for React Native.](https://img.shields.io/badge/-Fully%20customizable%2C%20Gradient%2C%20Outline%20and%20Solid%20Button%20for%20React%20Native.-gray?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
 
