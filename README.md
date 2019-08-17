@@ -7,6 +7,8 @@ Fully customizable, Gradient, Outline and Solid Button for React Native.
 ![Platform - Android and iOS](https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Field Tested ✅](https://img.shields.io/badge/-Field--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-button)
+
 
 <p align="center">
   <img alt="React Native Button" src="https://github.com/WrathChaos/react-native-button/blob/master/assets/Screenshots/example.png"/>
