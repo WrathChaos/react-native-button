@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { View, StatusBar, SafeAreaView } from "react-native";
-import Button from "./lib/src/Button";
+import Button from "@freakycoder/react-native-button";
 import styles from "./styles/App.style";
 
 const App = () => {
