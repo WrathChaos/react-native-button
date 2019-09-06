@@ -1,11 +1,12 @@
 export default {
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center"
+    marginTop: "50%"
   },
   buttonContainer: {
-    height: 250,
+    height: 125,
+    alignItems: "center",
+    justifyContent: "center",
     flexDirection: "column",
     justifyContent: "space-evenly"
   }
