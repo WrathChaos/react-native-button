@@ -45,15 +45,11 @@ npm i @freakycoder/react-native-button
 - Button (ClassicButton)
 - GooglePlayButton (Material Design 2)
 
-<br />
-
 ## Import
 
 ```js
 import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
 ```
-
-<br />
 
 # GooglePlayButton Usage (Material Design 2)
 
