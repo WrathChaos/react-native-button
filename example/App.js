@@ -3,6 +3,7 @@ import { View, StatusBar, SafeAreaView } from "react-native";
 import styles from "./styles/App.style";
 // import Button from "@freakycoder/react-native-button";
 import { Button, GooglePlayButton } from "./lib/src/index";
+import GooglePlayTitle from "./src/components/GooglePlayTitle";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1 }}>
         <View style={styles.container}>
+          <GooglePlayTitle />
           <View style={styles.buttonContainer}>
             <GooglePlayButton outline text="Uninstall" />
             <GooglePlayButton
