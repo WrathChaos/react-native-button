@@ -40,6 +40,42 @@ npm i @freakycoder/react-native-button
 "react-native-dynamic-vector-icons": ">= x.x.x"
 ```
 
+# Button Component Options
+
+- Button (ClassicButton)
+- GooglePlayButton (Material Design 2)
+
+<br />
+
+## Import
+
+```js
+import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
+```
+
+<br />
+
+# GooglePlayButton Usage (Material Design 2)
+
+## Solid: 
+```js
+<GooglePlayButton
+  text="Open"
+  textColor="#fff"
+  rippleColor="white"
+/>
+```
+
+## Outline: 
+
+```js
+<GooglePlayButton outline text="Uninstall" />
+```
+
+
+
+# Button Usage (Classic Button)
+
 ## Gradient Button Usage
 
 ```js
