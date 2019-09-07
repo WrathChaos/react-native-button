@@ -10,5 +10,13 @@ export default {
     justifyContent: "center",
     flexDirection: "column",
     justifyContent: "space-evenly"
+  },
+  classicButtonContainer: {
+    height: 250,
+    marginTop: 16,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
+    justifyContent: "space-evenly"
   }
 };

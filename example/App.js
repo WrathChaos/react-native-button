@@ -10,14 +10,16 @@ const App = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{ flex: 1 }}>
         <View style={styles.container}>
-          <GooglePlayTitle />
-          <View style={styles.buttonContainer}>
-            <GooglePlayButton outline text="Uninstall" />
+          {/* <GooglePlayTitle /> */}
+          {/* <View style={styles.buttonContainer}>
+             <GooglePlayButton outline text="Uninstall" />
             <GooglePlayButton
               text="Open"
               textColor="#fff"
               rippleColor="white"
-            />
+            /> 
+          </View> */}
+          <View style={styles.classicButtonContainer}>
             <Button gradient textColor="white" shadowColor="#ff738b" />
             <Button
               solid
