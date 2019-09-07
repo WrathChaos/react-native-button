@@ -1,8 +1,12 @@
 {
   "name": "@freakycoder/react-native-button",
-  "version": "0.0.15",
+  "version": "0.2.0",
   "description": "Fully customizable, Gradient, Outline and Solid Button for React Native.",
   "keywords": [
+    "google",
+    "material-design",
+    "material-design-2",
+    "google-play",
     "gradient",
     "button",
     "FreakyCoder",
@@ -17,7 +21,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-button/issues",
-  "main": "./lib/src/Button.js",
+  "main": "./lib/src/index.js",
   "repository": "git@github.com:WrathChaos/react-native-button.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",

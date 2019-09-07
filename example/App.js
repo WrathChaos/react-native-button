@@ -1,9 +1,8 @@
 import React, { Fragment } from "react";
 import { View, StatusBar, SafeAreaView } from "react-native";
 import styles from "./styles/App.style";
-// import Button from "@freakycoder/react-native-button";
-import { Button, GooglePlayButton } from "./lib/src/index";
 import GooglePlayTitle from "./src/components/GooglePlayTitle";
+import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
 
 const App = () => {
   return (
@@ -19,7 +18,7 @@ const App = () => {
               textColor="#fff"
               rippleColor="white"
             />
-            {/* <Button gradient textColor="white" shadowColor="#ff738b" />
+            <Button gradient textColor="white" shadowColor="#ff738b" />
             <Button
               solid
               textColor="white"
@@ -31,7 +30,7 @@ const App = () => {
               color="#ff738b"
               textColor="#ff738b"
               borderColor="#ff738b"
-            /> */}
+            />
           </View>
         </View>
       </SafeAreaView>
