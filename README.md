@@ -117,10 +117,12 @@ import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
 
 ### Icon Props
 
-| name | string | star | change the icon name from React Native Vector Icons |
-| type | string | FontAwesome | change the icon type from React Native Vector Icons |
-| color | color | white | change the icon color |
-| size | number | 15 | change the icon size |
+| Property |  Type  |   Default   | Description                                         |
+| -------- | :----: | :---------: | --------------------------------------------------- |
+| name     | string |    star     | change the icon name from React Native Vector Icons |
+| type     | string | FontAwesome | change the icon type from React Native Vector Icons |
+| color    | color  |    white    | change the icon color                               |
+| size     | number |     15      | change the icon size                                |
 
 ### ToDos
 
