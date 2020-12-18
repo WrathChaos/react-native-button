@@ -38,7 +38,8 @@ npm i @freakycoder/react-native-button
 "react-native-androw": "0.0.31",
 "react-native-vector-icons": ">= 6.x.x",
 "react-native-linear-gradient": ">= 2.5.x",
-"react-native-dynamic-vector-icons": ">= x.x.x"
+"react-native-dynamic-vector-icons": ">= x.x.x",
+"react-native-material-ripple": "^0.8.0"
 ```
 
 # Button Component Options
