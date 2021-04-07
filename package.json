@@ -1,6 +1,6 @@
 {
   "name": "@freakycoder/react-native-button",
-  "version": "0.2.15",
+  "version": "1.0.0",
   "description": "Fully customizable, Gradient, Outline and Solid Button for React Native.",
   "keywords": [
     "google",
@@ -21,16 +21,44 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-button/issues",
-  "main": "./lib/src/index.js",
+  "main": "./build/dist/src/index.js",
   "repository": "git@github.com:WrathChaos/react-native-button.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
   "peerDependencies": {
-    "react": ">= 16.x.x",
-    "react-native": ">= 0.55.x",
-    "react-native-androw": "0.0.31",
+    "react-native-androw": ">= 0.0.31",
     "react-native-vector-icons": ">= 6.x.x",
     "react-native-linear-gradient": ">= 2.5.x",
     "react-native-dynamic-vector-icons": ">= x.x.x"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.53",
+    "@types/react-native": "^0.63.25",
+    "react-native-typescript-transformer": "^1.2.13",
+    "typescript": "^4.0.3",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/*.{js,jsx,ts,tsx}": [
+      "npx prettier --write",
+      "eslint src/*.js --fix-dry-run"
+    ]
   }
 }
