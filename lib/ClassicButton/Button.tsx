@@ -4,6 +4,7 @@ import {
   Text,
   StyleProp,
   ViewStyle,
+  TextStyle,
   TouchableOpacity,
 } from "react-native";
 import Icon from "react-native-dynamic-vector-icons";
@@ -14,6 +15,7 @@ import LinearGradient from "react-native-linear-gradient";
 import styles, { _solidStyle } from "./Button.style";
 
 type CustomStyleProp = StyleProp<ViewStyle> | Array<StyleProp<ViewStyle>>;
+type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
 interface IButtonProps {
   text: string;
@@ -23,7 +25,7 @@ interface IButtonProps {
   iconDisable?: boolean;
   backgroundColor?: string;
   style?: CustomStyleProp;
-  textStyle: CustomStyleProp;
+  textStyle: CustomTextStyleProp;
   shadowStyle?: CustomStyleProp;
   outlineStyle?: CustomStyleProp;
 }
@@ -38,7 +40,7 @@ const Button: React.FC<IButtonProps> = ({
   iconDisable,
   shadowStyle,
   outlineStyle,
-  backgroundColor,
+  backgroundColor = "#757575",
   ...rest
 }) => {
   const renderGradient = () => {

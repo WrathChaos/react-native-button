@@ -10,8 +10,8 @@ interface Style {
 
 export default StyleSheet.create<Style>({
   container: {
-    width: 50,
-    height: 150,
+    width: 150,
+    height: 50,
     borderRadius: 32,
     alignItems: "center",
     justifyContent: "center",
@@ -27,23 +27,22 @@ export default StyleSheet.create<Style>({
     color: "#757575",
   },
   shadowStyle: {
-    shadowRadius: 10,
-    shadowOpacity: 0.5,
+    shadowRadius: 8,
+    shadowOpacity: 0.2,
     shadowColor: "#757575",
     shadowOffset: {
       width: 0,
-      height: 0,
+      height: 3,
     },
   },
   outlineStyle: {
-    border: 1,
     borderWidth: 0.3,
     borderColor: "#757575",
   },
 });
 
-export function _solidStyle(backgroundColor) {
+export const _solidStyle = (backgroundColor: string): ViewStyle => {
   return {
     backgroundColor,
   };
-}
+};

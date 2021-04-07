@@ -23,6 +23,7 @@ const App = () => {
       <View style={styles.classicButtonContainer}>
         <Button
           solid
+          text="Hello"
           backgroundColor="#FFAFBD"
           textStyle={{ color: "#fff" }}
           onPress={() => {}}

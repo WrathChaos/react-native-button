@@ -102,6 +102,23 @@ import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
 | shadowStyle     |  style  | default | set/override style for the button's shadow style        |
 | outlineStyle    |  style  | default | set/override style for the button's outline style       |
 
+#### GooglePlayButton Props
+
+| Property        |   Type   | Default | Description                                             |
+| --------------- | :------: | :-----: | ------------------------------------------------------- |
+| text            |  string  |  null   | set the button's text                                   |
+| solid           | boolean  |  false  | make the button with a solid background and a shadow    |
+| outline         | boolean  |  true   | make the button outline                                 |
+| gradient        | boolean  |  false  | make the button with a gradient background and a shadow |
+| iconDisable     | boolean  |  false  | disable the left icon if you want                       |
+| backgroundColor |  color   | #757575 | change the solid's background color                     |
+| style           |  style   | default | set/override the style for the button's style           |
+| textStyle       |  style   | default | set/override style for the button's text style          |
+| textColor       |  color   | default | set button's text color                                 |
+| shadowStyle     |  style   | default | set/override style for the button's shadow style        |
+| outlineStyle    |  style   | default | set/override style for the button's outline style       |
+| onPress         | function | default | set the onPress functionality                           |
+
 ### Icon Props
 
 | Property |  Type  |   Default   | Description                                         |
@@ -113,8 +130,8 @@ import { Button, GooglePlayButton } from "@freakycoder/react-native-button";
 
 ### ToDos
 
-- [x] LICENSE
-- [ ] Typescript Challenge & Code Cleaning
+- [x] ~~LICENSE~~
+- [x] ~~Typescript Challenge & Code Cleaning~~
 - [ ] Expo Version
 - [ ] Write an article about the lib on Medium
 

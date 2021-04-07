@@ -40,7 +40,7 @@ const Button: React.FC<IButtonProps> = ({
   iconDisable,
   shadowStyle,
   outlineStyle,
-  backgroundColor,
+  backgroundColor = "#757575",
   ...rest
 }) => {
   const renderGradient = () => {
