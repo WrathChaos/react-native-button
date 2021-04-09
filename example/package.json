@@ -10,6 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@freakycoder/react-native-button": "^1.0.1",
     "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-dynamic-vector-icons": "^1.1.4",
