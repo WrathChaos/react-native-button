@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from "react-native";
-import { GooglePlayButton, Button } from "./lib/index";
+import { SafeAreaView, StatusBar, StyleSheet, View } from "react-native";
+import { GooglePlayButton, Button } from "@freakycoder/react-native-button";
 
 const App = () => {
   return (
