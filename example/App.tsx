@@ -14,7 +14,7 @@ const App = () => {
       </View>
       <View style={styles.classicButtonContainer}>
         <Button
-          solid
+          gradient
           text="Hello"
           backgroundColor="#FFAFBD"
           textStyle={{ color: "#fff" }}

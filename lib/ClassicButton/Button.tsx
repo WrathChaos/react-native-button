@@ -46,11 +46,11 @@ const Button: React.FC<IButtonProps> = ({
   const renderGradient = () => {
     return (
       <LinearGradient
-        style={[styles.container, style]}
-        {...rest}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 0 }}
+        style={[styles.container, style]}
         colors={["#FFAFBD", "#ffc3a0"]}
+        {...rest}
       >
         {renderContent()}
       </LinearGradient>
